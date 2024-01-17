@@ -47,8 +47,8 @@ body{
     
     
 }
-.each-user:hover{
-    text-shadow: 0px 0px 2px rgb(255, 255, 255);
+.each-user:hover > .each-user-paragraph {
+    color: aliceblue;
     
     
 }
@@ -57,6 +57,7 @@ body{
     font-weight: 500;
     color: rgb(149, 151, 152);
     padding: 30px;
+    transition: 500ms;
 }
 button{
     width: 200px;
